@@ -1,0 +1,23 @@
+{
+  "name": "react-sync-suspense",
+  "version": "0.1.0",
+  "description": "An implementation of the suspense API in synchronous React.",
+  "main": "index.js",
+  "author": "Alfred Ringstad",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.0",
+    "rollup": "^0.63.4",
+    "rollup-plugin-babel": "^3.0.7"
+  }
+}
